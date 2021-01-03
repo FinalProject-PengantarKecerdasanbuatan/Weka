@@ -12,6 +12,8 @@
 - *Reference Paper* : [MKNN: Modified K-Nearest Neighbor](root/MKNN)
 - *Code*            : [MKNN]()
 
+
+
 <br>
 <span align="center">
 
@@ -30,15 +32,14 @@
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<span align="center">
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ardani77"><img src="https://avatars3.githubusercontent.com/" width="100px;" alt=""/><br /><sub><b>Lazuardy Khatulistiwa</b></sub></a><br /><a href="" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Leffial"><img src="https://avatars3.githubusercontent.com/" width="100px;" alt=""/><br /><sub><b>Gian Chiesa</b></sub></a><br /><a href="" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ardani77"><br /><sub><b>Muhammad Ardani</b></sub></a><br /><a href="" title="Code">💻</a><br />Ilmu Komputer</b><br />Universitas Negeri Jakarta</b></td>
+    <td align="center"><a href="https://github.com/Leffial"><br /><sub><b>Khulaifi Alkatsiri</b></sub></a><br /><a href="" title="Code">💻</a><br />Ilmu Komputer</b><br />Universitas Negeri Jakarta</b></td>
   </tr>
 </table>
-
+</span>
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-- **Muhammad Ardani**    - *Ilmu Komputer - Universitas Negeri Jakarta* - [ardani77](https://github.com/ardani77)
-- **Khulaifi Alkatsiri** - *Ilmu Komputer - Universitas Negeri Jakarta* - [Leffial](https://github.com/Leffial)
