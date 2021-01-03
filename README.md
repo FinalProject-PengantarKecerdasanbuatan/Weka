@@ -1,4 +1,4 @@
-# Team E - Final Project Pengantar Kecerdasan Buatan
+# Team C - Final Project Pengantar Kecerdasan Buatan
 Modified K-Nearest Neighbor (MKNN) Algorithm
 - - - -
 
@@ -18,5 +18,5 @@ Modified K-Nearest Neighbor (MKNN) Algorithm
 
 ### Contributors ###
 
-* **Muhammad Ardani** - *Ilmu Komputer Universitas Negeri Jakarta* - [ardani77](https://github.com/ardani77)
+* **Muhammad Ardani** - *Ilmu Komputer - Universitas Negeri Jakarta* - [ardani77](https://github.com/ardani77)
 * **Khulaifi Alkatsiri** - *Ilmu Komputer - Universitas Negeri Jakarta* - [Leffial](https://github.com/Leffial)
