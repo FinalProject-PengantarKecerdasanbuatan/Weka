@@ -18,5 +18,5 @@ Modified K-Nearest Neighbor (MKNN) Algorithm
 
 ### Contributors ###
 
-* **Muhammad Ardani** - *Ilmu Komputer Universitas Negeri Jakarta* - [bagas050201](https://github.com/ardani77)
-* **Khulaifi Alkatsiri** - *Ilmu Komputer - Universitas Negeri Jakarta* - [adirhmn](https://github.com/Leffial)
+* **Muhammad Ardani** - *Ilmu Komputer Universitas Negeri Jakarta* - [ardani77](https://github.com/ardani77)
+* **Khulaifi Alkatsiri** - *Ilmu Komputer - Universitas Negeri Jakarta* - [Leffial](https://github.com/Leffial)
