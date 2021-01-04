@@ -29,7 +29,7 @@
 </p>
 
 - Reference Paper   : [MKNN: Modified K-Nearest Neighbor](root/MKNN.pdf)
-- Code              : [MKNN](Weka-3-8-4/weka/src/main/java/weka/classifiers/lazy/MKNN.java)
+- Code              : [MKNN](weka/src/main/java/weka/classifiers/lazy/MKNN.java)
 - Compiled weka.jar : [weka](root/weka.jar)
 
 ### Requirement to Compile Weka
