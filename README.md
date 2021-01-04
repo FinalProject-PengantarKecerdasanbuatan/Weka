@@ -18,10 +18,9 @@
 <br>
 <span align="center">
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg)](#contributors-)
 ![GitHub last commit](https://img.shields.io/github/last-commit/FinalProject-PengantarKecerdasanBuatan/Weka)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/FinalProject-PengantarKecerdasanBuatan/Weka)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/FinalProject-PengantarKecerdasanbuatan/Weka)
 ![GitHub repo size](https://img.shields.io/github/repo-size/FinalProject-PengantarKecerdasanbuatan/Weka?color=white)
 ![GitHub language count](https://img.shields.io/github/languages/count/FinalProject-PengantarKecerdasanbuatan/Weka?color=purple)
 
