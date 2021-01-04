@@ -38,19 +38,6 @@ public class MKNN
     m_Classifier = new weka.classifiers.trees.DecisionStump();
   }
 
-  protected String defaultClassifierString() {
-    
-    return "weka.classifiers.trees.DecisionStump";
-  }
-
-  public Enumeration<String> enumerateMeasures() {
-    return m_NNSearch.enumerateMeasures();
-  }
- 
-  public double getMeasure(String additionalMeasureName) {
-    return m_NNSearch.getMeasure(additionalMeasureName);
-  }
-
   public Enumeration<Option> listOptions() {
     
     Vector<Option> newVector = new Vector<Option>(3);
@@ -84,8 +71,7 @@ public class MKNN
     if(nnSearchClass.length() != 0) {
       String nnSearchClassSpec[] = Utils.splitOptions(nnSearchClass);
       if(nnSearchClassSpec.length == 0) { 
-        throw new Exception("Invalid NearestNeighbourSearch algorithm " +
-                            "specification string."); 
+        throw new Exception("Invalid NearestNeighbourSearch algorithm "); 
       }
       String className = nnSearchClassSpec[0];
       nnSearchClassSpec[0] = "";
@@ -251,31 +237,6 @@ public class MKNN
                          m_Train.numInstances() + " instances.");
     }
     
-    //IF LinearNN has skipped so much that <k neighbours are remaining.
-    if(k>distances.length)
-      k = distances.length;
-
-    if (m_Debug) {
-      System.out.println("Instance Distances");
-      for (int i = 0; i < distances.length; i++) {
-	System.out.println("" + distances[i]);
-      }
-    }
-
-    // Determine the bandwidth
-    double bandwidth = distances[k-1];
-
-    // Check for bandwidth zero
-    if (bandwidth <= 0) {
-      //if the kth distance is zero than give all instances the same weight
-      for(int i=0; i < distances.length; i++)
-        distances[i] = 1;
-    } else {
-      // Rescale the distances by the bandwidth
-      for (int i = 0; i < distances.length; i++)
-        distances[i] = distances[i] / bandwidth;
-    }
-    
     // Pass the distances through a weighting kernel
     for (int i = 0; i < distances.length; i++) {
       switch (m_WeightKernel) {
@@ -300,13 +261,7 @@ public class MKNN
       sumOfWeights += inst.weight();
       newSumOfWeights += inst.weight() * weight;
       inst.setWeight(inst.weight() * weight);
-      //weightedTrain.add(newInst);
-    }
-    
-    // Rescale weights
-    for (int i = 0; i < neighbours.numInstances(); i++) {
-      Instance inst = neighbours.instance(i);
-      inst.setWeight(inst.weight() * sumOfWeights / newSumOfWeights);
+
     }
 
     // Create a weighted classifier
