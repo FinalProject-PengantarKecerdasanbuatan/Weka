@@ -32,6 +32,10 @@
 - Code              : [MKNN](Weka-3-8-4/weka/src/main/java/weka/classifiers/lazy/MKNN.java)
 - Compiled weka.jar : [weka](root/weka.jar)
 
+### Requirement to Compile Weka
+- Ant 1.10.5
+- Java 11 Open JDK
+
 ## Contributors
 ### Team C Final Project - Pengantar Kecerdasan Buatan
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
