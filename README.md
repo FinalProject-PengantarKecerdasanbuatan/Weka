@@ -10,8 +10,8 @@
       Algoritma modified k-nearest neighbor (MKNN) merupakan pengembangan dari metode KNN dengan penambahan beberapa proses yaitu, perhitungan nilai validitas dan perhitungan bobot. Algoritma k-nearest neighbor (KNN) merupakan algoritma clustering yang sangat sederhana dengan cara mengelompokkan data baru dengan K tetangga terdekat. 
 </p>
 
-- Reference Paper : [MKNN: Modified K-Nearest Neighbor](root/MKNN)
-- Code            : [MKNN]()
+- Reference Paper : [MKNN: Modified K-Nearest Neighbor](root/MKNN.pdf)
+- Code            : [MKNN](src/main/java/weka/classifiers/lazy/MKNN.java)
 
 <br>
 <br>
